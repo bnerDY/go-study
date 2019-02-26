@@ -4,10 +4,10 @@ import "flag"
 import "fmt"
 import "os"
 
-type Cmd Struct {
-	helpFlag bool
+type Cmd struct {
+	helpFlag    bool
 	versionFlag bool
-	cpOption string
-	class string
-	args[] []string
+	cpOption    string
+	class       string
+	args        [][]string
 }
